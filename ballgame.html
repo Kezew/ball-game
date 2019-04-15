@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Balls</title>
+  <link rel="stylesheet" href="eredmenyek.css">
+  <link rel="stylesheet" href="ball_style.css">
+  <script src="ballgame.js"></script>
+</head>
+
+<body>
+  <audio id="wrongClick" src="ohno.mp3"></audio>
+  <audio id="goodClick" src="goodsound.mp3"></audio>
+  <!-- JS: document.getElementById("wrongClick").play(); -->
+
+  <div id="field"></div>
+
+    <div class="flex-container">
+      <div class="title">score</div>
+      <div id="actScore" class="smaller">0</div>
+    </div>
+    <div class="flex-container">
+      <div class="title">level</div>
+      <div id="setlevel" class="smaller">1</div>
+    </div>
+    <div class="flex-container">
+      <div class="title">time</div>
+      <div id="timer" class="smaller greentime">2:00</div>
+    </div>
+    <div class="flex-container">
+      <div class="title">lives</div>
+      <div id="timer" class="smaller redtime hearts">♥ ♥ ♥ ♥ ♥</div>
+    </div>
+    <div class="flex-container big">
+      <div id="high-score" class="high-score">high score</div>
+    </div>
+    <div class="flex-container big">
+      <div id="high-value" class="high-score">0</div>
+    </div>
+
+</body>
+
+</html>

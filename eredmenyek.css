@@ -1,0 +1,68 @@
+body {
+  background-image: url("balls_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#field {
+  box-shadow: 2px 2px 10px grey;
+  opacity: 0.97;
+}
+
+.flex-container {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  opacity: 0.92;
+  align-items: flex-end;
+  width: 350px;
+  display: flex;
+  background-color: silver;
+  /* #f1f1f1; */
+  box-shadow: 2px 2px 10px grey;
+}
+
+.flex-container>div {
+  padding: 5px;
+}
+
+.smaller {
+  width: 180px;
+  font-size: 44px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px darkblue;
+}
+
+.title {
+  width: 150px;
+  font-size: 44px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px darkblue;
+}
+.high-score {
+  width: 400px;
+  font-size: 44px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px darkblue;
+}
+
+.redtime {
+  color: red;
+  text-shadow: 1px 1px 2px black, 0 0 20px maroon, 0 0 10px darkred;
+}
+
+.greentime {
+  color: lime;
+  text-shadow: 1px 1px 2px black, 0 0 20px green, 0 0 10px darkgreen;
+}
+
+#high-score {
+  text-align: center;
+  color: gold;
+  text-shadow: 1px 1px 2px yellow, 0 0 20px orange, 0 0 10px red;
+}
+
+#high-value {
+  text-align: center;
+  color: gold;
+  text-shadow: 1px 1px 2px yellow, 0 0 20px orange, 0 0 10px red;
+}

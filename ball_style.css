@@ -1,0 +1,13 @@
+#field {
+  background: #ccc;
+  position: relative;
+}
+
+#field>div {
+  border-radius: 50%;
+  position: absolute;
+}
+
+div {
+  float: left;
+}
